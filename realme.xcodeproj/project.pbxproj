@@ -1,0 +1,677 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72B55E8D2BAB284700AA5831 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B55E8C2BAB284700AA5831 /* AppDelegate.swift */; };
+		72B55E8F2BAB284700AA5831 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B55E8E2BAB284700AA5831 /* SceneDelegate.swift */; };
+		72B55E912BAB284700AA5831 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B55E902BAB284700AA5831 /* ViewController.swift */; };
+		72B55E942BAB284700AA5831 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72B55E922BAB284700AA5831 /* Main.storyboard */; };
+		72B55E962BAB284B00AA5831 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72B55E952BAB284B00AA5831 /* Assets.xcassets */; };
+		72B55E992BAB284B00AA5831 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72B55E972BAB284B00AA5831 /* LaunchScreen.storyboard */; };
+		72B55EA42BAB284B00AA5831 /* realmeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B55EA32BAB284B00AA5831 /* realmeTests.swift */; };
+		72B55EAE2BAB284B00AA5831 /* realmeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B55EAD2BAB284B00AA5831 /* realmeUITests.swift */; };
+		72B55EB02BAB284B00AA5831 /* realmeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B55EAF2BAB284B00AA5831 /* realmeUITestsLaunchTests.swift */; };
+		72B55EBF2BAB28BD00AA5831 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 72B55EBE2BAB28BD00AA5831 /* Alamofire */; };
+		72B55EC22BAB28E600AA5831 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 72B55EC12BAB28E600AA5831 /* SnapKit */; };
+		72B55EC52BAB2C7000AA5831 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 72B55EC42BAB2C7000AA5831 /* RealmSwift */; };
+		72B55EC72BAB36C800AA5831 /* NewUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B55EC62BAB36C800AA5831 /* NewUser.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		72B55EA02BAB284B00AA5831 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72B55E812BAB284700AA5831 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72B55E882BAB284700AA5831;
+			remoteInfo = realme;
+		};
+		72B55EAA2BAB284B00AA5831 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72B55E812BAB284700AA5831 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72B55E882BAB284700AA5831;
+			remoteInfo = realme;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		72B55E892BAB284700AA5831 /* realme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = realme.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72B55E8C2BAB284700AA5831 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		72B55E8E2BAB284700AA5831 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		72B55E902BAB284700AA5831 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		72B55E932BAB284700AA5831 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		72B55E952BAB284B00AA5831 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72B55E982BAB284B00AA5831 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		72B55E9A2BAB284B00AA5831 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72B55E9F2BAB284B00AA5831 /* realmeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = realmeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72B55EA32BAB284B00AA5831 /* realmeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = realmeTests.swift; sourceTree = "<group>"; };
+		72B55EA92BAB284B00AA5831 /* realmeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = realmeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72B55EAD2BAB284B00AA5831 /* realmeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = realmeUITests.swift; sourceTree = "<group>"; };
+		72B55EAF2BAB284B00AA5831 /* realmeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = realmeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		72B55EC62BAB36C800AA5831 /* NewUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewUser.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72B55E862BAB284700AA5831 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72B55EC52BAB2C7000AA5831 /* RealmSwift in Frameworks */,
+				72B55EBF2BAB28BD00AA5831 /* Alamofire in Frameworks */,
+				72B55EC22BAB28E600AA5831 /* SnapKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72B55E9C2BAB284B00AA5831 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72B55EA62BAB284B00AA5831 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72B55E802BAB284700AA5831 = {
+			isa = PBXGroup;
+			children = (
+				72B55E8B2BAB284700AA5831 /* realme */,
+				72B55EA22BAB284B00AA5831 /* realmeTests */,
+				72B55EAC2BAB284B00AA5831 /* realmeUITests */,
+				72B55E8A2BAB284700AA5831 /* Products */,
+				72B55EBD2BAB28BD00AA5831 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		72B55E8A2BAB284700AA5831 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72B55E892BAB284700AA5831 /* realme.app */,
+				72B55E9F2BAB284B00AA5831 /* realmeTests.xctest */,
+				72B55EA92BAB284B00AA5831 /* realmeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72B55E8B2BAB284700AA5831 /* realme */ = {
+			isa = PBXGroup;
+			children = (
+				72B55E8C2BAB284700AA5831 /* AppDelegate.swift */,
+				72B55EC62BAB36C800AA5831 /* NewUser.swift */,
+				72B55E8E2BAB284700AA5831 /* SceneDelegate.swift */,
+				72B55E902BAB284700AA5831 /* ViewController.swift */,
+				72B55E922BAB284700AA5831 /* Main.storyboard */,
+				72B55E952BAB284B00AA5831 /* Assets.xcassets */,
+				72B55E972BAB284B00AA5831 /* LaunchScreen.storyboard */,
+				72B55E9A2BAB284B00AA5831 /* Info.plist */,
+			);
+			path = realme;
+			sourceTree = "<group>";
+		};
+		72B55EA22BAB284B00AA5831 /* realmeTests */ = {
+			isa = PBXGroup;
+			children = (
+				72B55EA32BAB284B00AA5831 /* realmeTests.swift */,
+			);
+			path = realmeTests;
+			sourceTree = "<group>";
+		};
+		72B55EAC2BAB284B00AA5831 /* realmeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				72B55EAD2BAB284B00AA5831 /* realmeUITests.swift */,
+				72B55EAF2BAB284B00AA5831 /* realmeUITestsLaunchTests.swift */,
+			);
+			path = realmeUITests;
+			sourceTree = "<group>";
+		};
+		72B55EBD2BAB28BD00AA5831 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72B55E882BAB284700AA5831 /* realme */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72B55EB32BAB284B00AA5831 /* Build configuration list for PBXNativeTarget "realme" */;
+			buildPhases = (
+				72B55E852BAB284700AA5831 /* Sources */,
+				72B55E862BAB284700AA5831 /* Frameworks */,
+				72B55E872BAB284700AA5831 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = realme;
+			packageProductDependencies = (
+				72B55EBE2BAB28BD00AA5831 /* Alamofire */,
+				72B55EC12BAB28E600AA5831 /* SnapKit */,
+				72B55EC42BAB2C7000AA5831 /* RealmSwift */,
+			);
+			productName = realme;
+			productReference = 72B55E892BAB284700AA5831 /* realme.app */;
+			productType = "com.apple.product-type.application";
+		};
+		72B55E9E2BAB284B00AA5831 /* realmeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72B55EB62BAB284B00AA5831 /* Build configuration list for PBXNativeTarget "realmeTests" */;
+			buildPhases = (
+				72B55E9B2BAB284B00AA5831 /* Sources */,
+				72B55E9C2BAB284B00AA5831 /* Frameworks */,
+				72B55E9D2BAB284B00AA5831 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72B55EA12BAB284B00AA5831 /* PBXTargetDependency */,
+			);
+			name = realmeTests;
+			productName = realmeTests;
+			productReference = 72B55E9F2BAB284B00AA5831 /* realmeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		72B55EA82BAB284B00AA5831 /* realmeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72B55EB92BAB284B00AA5831 /* Build configuration list for PBXNativeTarget "realmeUITests" */;
+			buildPhases = (
+				72B55EA52BAB284B00AA5831 /* Sources */,
+				72B55EA62BAB284B00AA5831 /* Frameworks */,
+				72B55EA72BAB284B00AA5831 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72B55EAB2BAB284B00AA5831 /* PBXTargetDependency */,
+			);
+			name = realmeUITests;
+			productName = realmeUITests;
+			productReference = 72B55EA92BAB284B00AA5831 /* realmeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72B55E812BAB284700AA5831 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					72B55E882BAB284700AA5831 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					72B55E9E2BAB284B00AA5831 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 72B55E882BAB284700AA5831;
+					};
+					72B55EA82BAB284B00AA5831 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 72B55E882BAB284700AA5831;
+					};
+				};
+			};
+			buildConfigurationList = 72B55E842BAB284700AA5831 /* Build configuration list for PBXProject "realme" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72B55E802BAB284700AA5831;
+			packageReferences = (
+				72B55EBC2BAB289600AA5831 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				72B55EC02BAB28E000AA5831 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				72B55EC32BAB2C4C00AA5831 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
+			productRefGroup = 72B55E8A2BAB284700AA5831 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72B55E882BAB284700AA5831 /* realme */,
+				72B55E9E2BAB284B00AA5831 /* realmeTests */,
+				72B55EA82BAB284B00AA5831 /* realmeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72B55E872BAB284700AA5831 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72B55E992BAB284B00AA5831 /* LaunchScreen.storyboard in Resources */,
+				72B55E962BAB284B00AA5831 /* Assets.xcassets in Resources */,
+				72B55E942BAB284700AA5831 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72B55E9D2BAB284B00AA5831 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72B55EA72BAB284B00AA5831 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72B55E852BAB284700AA5831 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72B55E912BAB284700AA5831 /* ViewController.swift in Sources */,
+				72B55EC72BAB36C800AA5831 /* NewUser.swift in Sources */,
+				72B55E8D2BAB284700AA5831 /* AppDelegate.swift in Sources */,
+				72B55E8F2BAB284700AA5831 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72B55E9B2BAB284B00AA5831 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72B55EA42BAB284B00AA5831 /* realmeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72B55EA52BAB284B00AA5831 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72B55EB02BAB284B00AA5831 /* realmeUITestsLaunchTests.swift in Sources */,
+				72B55EAE2BAB284B00AA5831 /* realmeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		72B55EA12BAB284B00AA5831 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72B55E882BAB284700AA5831 /* realme */;
+			targetProxy = 72B55EA02BAB284B00AA5831 /* PBXContainerItemProxy */;
+		};
+		72B55EAB2BAB284B00AA5831 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72B55E882BAB284700AA5831 /* realme */;
+			targetProxy = 72B55EAA2BAB284B00AA5831 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		72B55E922BAB284700AA5831 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72B55E932BAB284700AA5831 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		72B55E972BAB284B00AA5831 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72B55E982BAB284B00AA5831 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		72B55EB12BAB284B00AA5831 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		72B55EB22BAB284B00AA5831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72B55EB42BAB284B00AA5831 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = realme/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ok.realme;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		72B55EB52BAB284B00AA5831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = realme/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ok.realme;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		72B55EB72BAB284B00AA5831 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ok.realmeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/realme.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/realme";
+			};
+			name = Debug;
+		};
+		72B55EB82BAB284B00AA5831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ok.realmeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/realme.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/realme";
+			};
+			name = Release;
+		};
+		72B55EBA2BAB284B00AA5831 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ok.realmeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = realme;
+			};
+			name = Debug;
+		};
+		72B55EBB2BAB284B00AA5831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ok.realmeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = realme;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72B55E842BAB284700AA5831 /* Build configuration list for PBXProject "realme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72B55EB12BAB284B00AA5831 /* Debug */,
+				72B55EB22BAB284B00AA5831 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72B55EB32BAB284B00AA5831 /* Build configuration list for PBXNativeTarget "realme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72B55EB42BAB284B00AA5831 /* Debug */,
+				72B55EB52BAB284B00AA5831 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72B55EB62BAB284B00AA5831 /* Build configuration list for PBXNativeTarget "realmeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72B55EB72BAB284B00AA5831 /* Debug */,
+				72B55EB82BAB284B00AA5831 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72B55EB92BAB284B00AA5831 /* Build configuration list for PBXNativeTarget "realmeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72B55EBA2BAB284B00AA5831 /* Debug */,
+				72B55EBB2BAB284B00AA5831 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		72B55EBC2BAB289600AA5831 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.0;
+			};
+		};
+		72B55EC02BAB28E000AA5831 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+		72B55EC32BAB2C4C00AA5831 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		72B55EBE2BAB28BD00AA5831 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 72B55EBC2BAB289600AA5831 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		72B55EC12BAB28E600AA5831 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 72B55EC02BAB28E000AA5831 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		72B55EC42BAB2C7000AA5831 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 72B55EC32BAB2C4C00AA5831 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 72B55E812BAB284700AA5831 /* Project object */;
+}
